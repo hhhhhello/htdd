@@ -18,7 +18,7 @@ lerna-debug.log*
 
 
 # lock
-yarn.lock
+*.lock
 
 # Editor directories and files
 .idea
