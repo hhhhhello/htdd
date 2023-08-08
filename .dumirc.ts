@@ -1,4 +1,5 @@
-import { defineConfig } from 'dumi';
+import { defineConfig } from 'dumi'
+import path from 'path'
 
 export default defineConfig({
   themeConfig: {
@@ -8,7 +9,10 @@ export default defineConfig({
     atomDirs: [
       { type: 'component', dir: 'packages/components' },
       { type: 'utils', dir: 'packages/utils' },
-      { type: 'views', dir: 'packages/views' }
+      { type: 'views', dir: 'packages/views' },
     ],
   },
-});
+  alias: {
+    date: path.join(__dirname, 'packages/utils/date'),
+  },
+})
