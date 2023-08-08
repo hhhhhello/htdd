@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "description": "A static site based on dumi",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "build": "dumi build",
+    "build": "npx lerna run build",
+    "build:docs": "dumi build",
     "dev": "dumi dev",
     "prepare": "husky install && dumi setup",
+    "publish": "npx lerna version --conventional-commits --no-commit-hooks",
     "start": "npm run dev"
   },
   "commitlint": {
