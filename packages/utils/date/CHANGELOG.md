@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/hhhhhello/htdd/compare/utils-date@1.3.0...utils-date@1.4.0) (2023-08-08)
+
+### Features
+
+- docs ([e63bbeb](https://github.com/hhhhhello/htdd/commit/e63bbeb79c388a5adb006aae42a8f2e5666b3c60))
+
 # 1.3.0 (2023-08-08)
 
 ### Features
